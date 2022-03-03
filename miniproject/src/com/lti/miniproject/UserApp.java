@@ -24,7 +24,7 @@ public class UserApp {
 			switch(option)
 			{
 			case 1: 
-				System.out.println("Enter year");
+				System.out.println("Enter the year");
 				String year=sc.next();
 				fetch.complaintsBasedOnYear(year);
 			break;

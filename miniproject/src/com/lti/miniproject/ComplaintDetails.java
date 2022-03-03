@@ -10,6 +10,7 @@ import java.util.*;
 public class ComplaintDetails {
 	CsvFileReader bankfileR= new CsvFileReader();
 	Scanner sc=new Scanner(System.in);
+	
 	void loadData()
 	{
 		bankfileR.fileLoader();
