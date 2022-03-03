@@ -34,7 +34,7 @@ public class UserApp {
 				fetch.complaintsBasedOnCompany(u_company);
 			break;
 			case 3: 
-				System.out.println("Enter complaint ID");
+				System.out.println("Enter the complaint ID");
 				String id=sc.next();
 				fetch.complaintsBasedOnComplaintID(id);
 			break;
