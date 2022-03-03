@@ -29,7 +29,7 @@ public class UserApp {
 				fetch.complaintsBasedOnYear(year);
 			break;
 			case 2:
-				System.out.println("Enter company name");
+				System.out.println("Enter the company name");
 			    String u_company=sc.next(); 
 				fetch.complaintsBasedOnCompany(u_company);
 			break;
